@@ -3,7 +3,7 @@
 
 // Función asociada al botón con ID 'btnClick1':
 document.getElementById('btnClick1').addEventListener('click', function () {
-    // Muestra una alerta personalizada al hacer clic en el botón 'btnClick1'
+    // Muestra una alerta al hacer clic en el botón 'btnClick1'
     Swal.fire({
         position: "top-end",
         icon: "success",
@@ -80,7 +80,7 @@ function myEnterFunction() {
 
 // Función asociada al evento 'DOMContentLoaded':
 document.addEventListener('DOMContentLoaded', function () {
-    // Configura eventos para cambiar la fuente de la imagen cuando el mouse pasa por encima o sale
+    // Configura eventos para cambiar la fuente de la imagen cuando el raton pasa por encima o sale
     var imagen = document.getElementById('imagen');
 
     if (imagen) {

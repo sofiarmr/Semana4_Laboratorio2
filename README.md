@@ -1,5 +1,5 @@
 Listeners - Ejemplos de Eventos en HTML, CSS y JavaScript
-Este repositorio contiene ejemplos prácticos de eventos en HTML, CSS y JavaScript. 
+Este repositorio contiene ejemplos prácticos de eventos en HTML, CSS y JavaScript.
 Cada sección demuestra diferentes tipos de eventos interactivos que pueden ser útiles en el desarrollo web.
 
 Contenido
@@ -27,23 +27,23 @@ Ejemplo 3: Aumento de tamaño al enfocar
 Colócate en el área de texto para aumentar su tamaño.
 
 -- Eventos Mouseover --
-Ejemplo 1: Cambio de color al pasar el mouse
+Ejemplo 1: Cambio de color al pasar el raton
 Pasa el mouse sobre la caja para cambiar su color.
 
-Ejemplo 2: Contador al entrar con el mouse
+Ejemplo 2: Contador al entrar con el raton
 Entra con el mouse a la caja para iniciar un contador.
 
-Ejemplo 3: Cambio de imagen al pasar el mouse
+Ejemplo 3: Cambio de imagen al pasar el raton
 Pasa el mouse sobre la imagen para cambiarla.
 
 CSS (style.css)
-El archivo CSS proporciona estilos para mejorar la presentación de los ejemplos. 
+El archivo CSS proporciona estilos para mejorar la presentación de los ejemplos.
 Incluye estilos para las tarjetas, el pie de página, colores y efectos visuales.
 
 JavaScript (script.js)
-El archivo JavaScript contiene funciones asociadas a los eventos de los elementos HTML. 
+El archivo JavaScript contiene funciones asociadas a los eventos de los elementos HTML.
 Cada función realiza acciones específicas, como mostrar alertas, modificar estilos o invertir texto.
 
 Colaboradores
 Sofía Margarita Romero Rodríguez - SMSS042622
-Jefferson Josué Esperanza Ortiz - SMSS132422
+Jefferson Josue Esperanza Ortiz - SMSS132422
