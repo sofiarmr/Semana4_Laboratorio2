@@ -1,0 +1,142 @@
+<!-- SOFÍA MARGARITA ROMERO RODRÍGUEZ - SMSS042622 -->
+<!-- JEFFERSON JOSUÉ ESPERANZA ORTIZ - SMS132422 -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <title>Listeners</title>
+</head>
+<body>
+    <!-- Div principal -->
+    <div class="container mt-5">
+        <!-- Eventos click -->
+        <h1 style="color: #0D9276; text-align: center; font-family: 'Pacifico', cursive;">Eventos click</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div id="clickExample1" class="card">
+                    <div class="card-body text-center">
+                        <p style="font-family: 'Outfit', sans-serif;">Ejemplo 1 - Haz clic en el botón para mostrar un mensaje</p>
+                        <div class="button-container">
+                            <button id="btnClick1" class="btn btn-danger">Click aquí</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div id="clickExample2" class="card">
+                    <div class="card-body text-center">
+                        <p style="font-family: 'Outfit', sans-serif;">Ejemplo 2 - Haz clic en la hoja para hacerla más grande</p>
+                        <div class="icon-container">
+                            <i id="tulipIcon" class="material-icons" style="font-size: 100px; color: lightgreen;">eco</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div id="clickExample3" class="card">
+                    <div class="card-body">
+                        <p style="font-family: 'Outfit', sans-serif;">Ejemplo 3 - Haz clic en el texto y este se va a invertir</p>
+                        <p id="exampleText" style="font-family: 'Outfit', sans-serif; color:green;">Haz clic para invertir este texto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin de los eventos click -->
+
+        <!-- Eventos focus -->
+        <h1 style="color: #ff4d59; text-align: center; font-family: 'Pacifico', cursive;">Eventos focus</h1>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div id="focusExample1" class="card">
+                    <div class="card-body">
+                        <p style="font-family: 'Outfit', sans-serif;">Ejemplo 1 - Colocáte en el campo de entrada para cambiar su borde</p>
+                        <input type="text" id="inputFocus1" class="form-control" placeholder="Enfócame y escribe algo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div id="focusExample2" class="card">
+                    <div class="card-body text-center">
+                        <p style="font-family: 'Outfit', sans-serif;">Ejemplo 2 - Haz clic en el botón para enfocarlo y cambiar su color</p>
+                        <div class="button-container">
+                            <button id="btnFocus2" class="btn btn-success">Enfócame</button>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col-md-4">
+                <div id="focusExample3" class="card">
+                    <div class="card-body">
+                        <p style="font-family: 'Outfit', sans-serif;">Ejemplo 3 - Colocáte en el área de texto para aumentar su tamaño</p>
+                        <textarea id="textareaFocus3" class="form-control" placeholder="Enfócame"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin de los eventos focus -->
+
+        <!-- Eventos mouseover -->
+        <h1 style="color: #FFA447; text-align: center; font-family: 'Pacifico', cursive;">Eventos mouseover</h1>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div id="focusExample1" class="card">
+                    <div class="card-body text-center">
+                        <p style="font-family: 'Outfit', sans-serif;">Ejemplo 1 - Pasa tu mouse sobre la caja para cambiar de color</p>
+                        <div class="centered-element" id="elemento1">Cambia color</div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col-md-4">
+                <div id="focusExample2" class="card">
+                    <div class="card-body text-center">
+                        <p style="font-family: 'Outfit', sans-serif;">Ejemplo 2 - Entra con tu mouse a la caja para iniciar un contador</p>
+                        <div class="centered-box" onmouseenter="myEnterFunction()" id="cajita">
+                            <p>Entra con tu mouse</p>
+                            <p id="demo2">Pon tu mouse</p>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+            
+            <div class="col-md-4">
+                <div id="focusExample3" class="card">
+                    <div class="card-body text-center">
+                        <p style="font-family: 'Outfit', sans-serif;">Ejemplo 3 - Pasa tu mouse sobre la imagen para cambiar de imagen</p>
+                        <div class="centered-img">
+                            <img id="imagen" src="img/imagen1.png" alt="Imagen 1">
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <!-- Fin de los eventos mouseover -->
+    </div>
+    <!-- Fin de Div principal-->
+
+
+    <footer>
+        <p>Sofía Margarita Romero Rodríguez - SMSS042622 & Jefferson Josué Esperanza Ortiz - SMSS132422</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
